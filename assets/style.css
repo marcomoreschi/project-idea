@@ -3,4 +3,56 @@
 .navbar-nav {
     font-family: "Exo", sans-serif;
     font-size: 1.4em;
+    color: black;
 }
+
+
+/* -----------------------------------------Footer */
+
+.footer {
+    background-color: #0f0a01;
+    color: #fafafa;
+    text-align:center;
+    bottom: 0;
+}
+
+.footer ul {
+  padding-top:20px;
+}
+
+.footer p {
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: black;
+    background: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+.copyright {
+    color: black;
+    padding-top: 20px;
+    text-align:center;
+}
+
