@@ -19,15 +19,17 @@
 
 	<header>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<a class="navbar-brand" href="index.html">
+				 <img src="assets/images/logo.jpg"></img>
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home Page</a>
+						<a class="nav-link" href="#">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Training Cost</a>
@@ -43,30 +45,49 @@
 		</nav>
 	</header>
 
-    <section>
-       <div class="img-container">
-         <img src="assets/images/barbell.jpg" alt=""></img>
-            <div class="inner-container">
-               <h1> Build your body strong </h1>
-               <p> We are here to help you achive success with your health and fitness throught smart training. </p>
-               <a class="btn" href="#"> Click here </a>
-            </div>
-       </div>
-       
-       <div class="row about-us">
-
-            <h1 class="col-sm-12" id="about-us">About Us</h1>
-
-            <p class=col-sm-12> Speedy Fit has been designed with every fitness requirement and schedule in mind. With the community at the heart of it’s recent refurbishment, the space provides facilities for all abilities to take advantage of personal training sessions, classes
-            or simply as a space to work out in your own time. In the modern cardio room, you will find a traditional range of gym equipment along with some high-tech surprises. There’s a Skill Mill, for treadmill-style athletic workouts, Stairmaster,
-            for incline HIIT programmes and a Watt Bike Pro and Assault Air Bike – for competitive and recreational cyclists alike. Alongside the cardio room there is a generously equipped weight training area (with cathedral ceiling) and upstairs you
-            will find a superb disco-lit spin studio, with the latest Keiser Indoor Cycles. The Fitness Management team, led by Marco Moreschi have designed a diverse range of classes including HIIT, Box Fit, Body Blast Circuit, Ab Attack, and Spin.
-            What’s more, membership of the gym is not required to take advantage of personal training sessions or the comprehensive class timetable.
-            </p>
-
-        </div>
-    </section>
-
+<section id="hero">
+	<div id="home_hero" class="jumbotron jumbotron-fluid">
+	  <div id="cta" class="container center">
+	    <h1 class="display-4">Fluid jumbotron</h1>
+	    <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login_form">Sign In</button>
+		</div>
+	</div>
+	<!-- Modal -->
+<div class="modal fade" id="login_form" tabindex="-1" role="dialog" aria-labelledby="loginModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<form class="form-signin">
+  <img class="mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+  <label for="inputEmail" class="sr-only">Email address</label>
+  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <p class="mt-5 mb-3 text-muted">© 2017-2019</p>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
     <!-- footer -->
 
     <div class="footer container-fluid">
@@ -91,12 +112,12 @@
                         </a>
                     </li>
                 </ul>
-             <p class="copyright">&#169; Copyright Speedy Fit 2019. All Right Reserved</p>    
-    
+             <p class="copyright">&#169; Copyright Speedy Fit 2019. All Right Reserved</p>
+
     </div>
 
-     
-     
+
+
     <!-- Bootstraps Link -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
