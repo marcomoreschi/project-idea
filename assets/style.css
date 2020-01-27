@@ -39,9 +39,18 @@ header {height:100px;}
 }
 
 /* -----------------------------------------home page hero section */
+
 section#hero {height: 665px; position: relative;}
 
-#cta {position: absolute; top:50%; left:50%;}
+#cta {
+   position: absolute; 
+   top:50%; 
+   left:50%;
+   font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+   
+}
+
 .center {
   margin: 0;
   position: absolute;
@@ -51,21 +60,38 @@ section#hero {height: 665px; position: relative;}
   transform: translate(-50%, -50%);
 }
 #home_hero {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/barbell.jpg");
-
-  /* Set a specific height */
+  background-image:  url("images/barbell.jpg");
   height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
 #home_hero button {margin-top:20px;}
+
 .jumbotron {text-align:center;}
+
 .jumbotron h1, .jumbotron p { color: #fff;}
+
+/* -----------------------------------------About us home page */
+
+.about_us h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+}
+
+.about_us p {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #000;
+    font-size: 1.5em;
+    font-family: "Exo", sans-serif;
+}
+
 /* -----------------------------------------Footer */
 
 .footer {
