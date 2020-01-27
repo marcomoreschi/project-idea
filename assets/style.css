@@ -92,6 +92,14 @@ section#hero {height: 665px; position: relative;}
     font-family: "Exo", sans-serif;
 }
 
+/* -----------------------------------------Membership prices */
+
+.monthly_membership {
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    color: #0000ff;
+}
+
 /* -----------------------------------------Footer */
 
 .footer {
